@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageChatActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/barLayout_message_chat"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="-10dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_message_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image_mchat"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/profie" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image_online_msg"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_profile"
+                    android:tint="#05df29"
+                    app:civ_border_color="#05df29"
+                    app:civ_border_width="5dp"
+                    app:civ_fill_color="#05df29"
+                    android:layout_below="@+id/username_mchat"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginStart="-14dp"
+                    android:visibility="gone"
+                    android:layout_toEndOf="@id/profile_image_mchat">
+                </de.hdodenhof.circleimageview.CircleImageView>
+            <TextView
+                android:id="@+id/username_mchat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="User name"
+                android:layout_toEndOf="@+id/profile_image_mchat"
+                android:layout_marginStart="10dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/user_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/username_mchat"
+                android:layout_toEndOf="@+id/profile_image_mchat"
+                />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_chats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relative_layout_bottom"
+        android:layout_below="@+id/barLayout_message_chat">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/radiuschat"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/attach_image_file_btn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="3dp"
+            android:layout_toEndOf="@+id/text_message"
+            android:background="@drawable/ic_attach_file"
+            android:contentDescription="send an image file"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/text_message"
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Type a message"
+            android:textColor="@android:color/white"
+            android:textColorHint="#FFFFFF" />
+
+    </RelativeLayout>
+
+    <ImageView
+
+        android:id="@+id/send_message_bt"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/ic_action_name" />
+
+
+</RelativeLayout>

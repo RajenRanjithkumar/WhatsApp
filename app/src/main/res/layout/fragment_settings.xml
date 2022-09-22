@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.SettingsFragment"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:elevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="#DBF1DC"
+            >
+            <ImageView
+                android:id="@+id/cover_image_settings"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/register"
+                android:scaleType="centerCrop"
+                android:background="@drawable/radius"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_settings"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/profie"
+
+                />
+            <TextView
+                android:id="@+id/username_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_image_settings"
+                android:layout_centerHorizontal="true"
+                android:text="Username"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/social"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cv1"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/corner_radius"
+        android:padding="10dp">
+        <ImageView
+
+            android:id="@+id/set_facebook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/facebook"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_marginEnd="35dp"/>
+        <ImageView
+            android:id="@+id/set_instagram"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/instagram"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_marginEnd="35dp"/>
+        <ImageView
+            android:id="@+id/set_website"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/web_icon"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="0.5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/status"
+        android:layout_below="@+id/social"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update status:"
+            android:textSize="16sp"
+            android:layout_gravity="start"
+            android:layout_margin="20dp"/>
+        <TextView
+            android:id="@+id/status_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am a badass"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/status_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/corner_radius"
+            android:text="Edit Status"
+            android:textColor="#BDBDBD"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
