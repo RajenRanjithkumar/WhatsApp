@@ -47,4 +47,4 @@ After being inspired by WhatsApp, I developed an Android Messenger application t
   ## :coffee: Support 
   <a href="https://www.buymeacoffee.com/ranjith">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height=100 width=350></a>
-  Thanks, I appreciate that!!
+  </br>Thanks, I appreciate that!!
