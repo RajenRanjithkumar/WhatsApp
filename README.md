@@ -15,6 +15,16 @@ After being inspired by WhatsApp, I developed an Android Messenger application t
 | <img src="screenshot_whatsapp/Screenshot_20220922-165426_WhatsApp.jpg" height=400 width=210> <P>Settings Fragment | <img src="screenshot_whatsapp/Screenshot_20220922-171421_WhatsApp.jpg" height=400 width=210> <P>Chats Activity | <img src="screenshot_whatsapp/Screenshot_20220922-171432_WhatsApp.jpg" height=400 width=210> 
 | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |
   
+  
+  ## :dart: Upcoming features
+  - Users will be able to send and recieve images and videos.
+  - Users will be able to create groups.
+  - Users will be able to all upload stories.
+  - Users will be able to login using sign in with Google.
+  
+ 
+  
+  
   ## :coffee: Support 
   <a href="https://www.buymeacoffee.com/ranjith">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height=100 width=350></a>
