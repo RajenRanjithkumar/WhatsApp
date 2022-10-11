@@ -8,9 +8,9 @@ After being inspired by WhatsApp, I developed an Android Messenger application t
 
 ## :camera_flash: Screenshots 
 
-| <img src="screenshot_whatsapp/Screenshot_20220922-165258_WhatsApp.jpg" height=400 width=210 > <P>Splashscreen Layout| <img src="screenshot_whatsapp/Screenshot_20220922-171742_WhatsApp.jpg" height=400 width=210 > <P>Homescreen Layout | <img src="App screenshots/crop.jpg"  height=400 width=210> <P>Crop Layout  | <img src="screenshot_whatsapp/Screenshot_20220922-171449_WhatsApp.jpg" height=400 width=210> <P>Display progress bar  
-| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
+| <img src="screenshot_whatsapp/Screenshot_20220922-165258_WhatsApp.jpg" height=400 width=210 > <P>Login Layout| <img src="screenshot_whatsapp/Screenshot_20220922-171742_WhatsApp.jpg" height=400 width=210 > <P>Chats Home Fragment | <img src="screenshot_whatsapp/Screenshot_20220922-171449_WhatsApp.jpg" height=400 width=210> <P>Search Fragment
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- | 
 </br>
 
-| <img src="screenshot_whatsapp/Screenshot_20220922-165426_WhatsApp.jpg" height=400 width=210> <P>Model Output Layout | <img src="App screenshots/search1.jpg"  height=400 width=210> <P>Patients List Layout | <img src="screenshot_whatsapp/Screenshot_20220922-171421_WhatsApp.jpg" height=400 width=210> <P>Searchable List | <img src="screenshot_whatsapp/Screenshot_20220922-171432_WhatsApp.jpg" height=400 width=210> <P>Model Metrics Layout
-| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |------------------------------------------- |
+| <img src="screenshot_whatsapp/Screenshot_20220922-165426_WhatsApp.jpg" height=400 width=210> <P>Settings Fragment | <img src="screenshot_whatsapp/Screenshot_20220922-171421_WhatsApp.jpg" height=400 width=210> <P>Searchable List | <img src="screenshot_whatsapp/Screenshot_20220922-171432_WhatsApp.jpg" height=400 width=210> <P>Chats Activity
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |
