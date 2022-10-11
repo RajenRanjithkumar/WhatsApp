@@ -12,5 +12,5 @@ After being inspired by WhatsApp, I developed an Android Messenger application t
 | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- | 
 </br>
 
-| <img src="screenshot_whatsapp/Screenshot_20220922-165426_WhatsApp.jpg" height=400 width=210> <P>Settings Fragment | <img src="screenshot_whatsapp/Screenshot_20220922-171421_WhatsApp.jpg" height=400 width=210> <P>Searchable List | <img src="screenshot_whatsapp/Screenshot_20220922-171432_WhatsApp.jpg" height=400 width=210> <P>Chats Activity
+| <img src="screenshot_whatsapp/Screenshot_20220922-165426_WhatsApp.jpg" height=400 width=210> <P>Settings Fragment | <img src="screenshot_whatsapp/Screenshot_20220922-171421_WhatsApp.jpg" height=400 width=210> <P>Chats Activity | <img src="screenshot_whatsapp/Screenshot_20220922-171432_WhatsApp.jpg" height=400 width=210> 
 | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |
